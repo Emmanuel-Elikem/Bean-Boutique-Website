@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bean Boutique - Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="coffee.html">Coffee Selection</a></li>
+      <li><a href="equipment.html">Brewing Equipment</a></li>
+      <li><a href="cart.html">Shopping Cart</a></li>
+      <li><a href="events.html">Events &amp; Workshops</a></li>
+      <li><a href="offers.html">Special Offers</a></li>
+    </ul>
+  </nav> 
+    <!-- Shopping Cart Section -->
+    <header>
+      <h1>Your Shopping Cart</h1>
+    </header>
+  
+    <div class="cart-container">
+      <p id="cartMessage">Your cart is currently empty.</p>
+      <!-- Button to add an item (coffee blend/equipment) to the cart -->
+      <button id="addItem">Add Sample Coffee to Cart</button>
+      <ul id="cartList"></ul>
+      <!-- Checkout button -->
+      <button id="checkout" style="display:none;">Proceed to Checkout</button>
+    </div>
+    
+  <script src="script.js"></script>
+</body>
+</html>

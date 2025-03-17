@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bean Boutique - Coffee Selection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="coffee.html">Coffee Selection</a></li>
+      <li><a href="equipment.html">Brewing Equipment</a></li>
+      <li><a href="cart.html">Shopping Cart</a></li>
+      <li><a href="events.html">Events &amp; Workshops</a></li>
+      <li><a href="offers.html">Special Offers</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Our Exclusive Coffee Blends</h1>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="coffeeSearch" placeholder="Search our coffee blends...">
+  </div>
+
+  <!-- Catalogue layout of coffee products -->
+  <div class="catalogue">
+    <div class="coffee-item" data-type="espresso">
+      <img src="images/espresso.jpg" alt="Espresso Blend">
+      <h3>Espresso Blend</h3>
+      <p>Rich and bold with tasting notes of chocolate and caramel.</p>
+      <p><em>Recommended brewing: Espresso machine</em></p>
+      <button class="add-to-cart" data-name="Espresso Blend" data-price="12.99">Add to Cart</button>
+    </div>
+    <div class="coffee-item" data-type="latte">
+      <img src="images/latte.jpg" alt="Latte Blend">
+      <h3>Latte Blend</h3>
+      <p>Smooth and creamy with hints of vanilla and nuts.</p>
+      <p><em>Recommended brewing: Drip coffee maker</em></p>
+      <button class="add-to-cart" data-name="Espresso Blend" data-price="12.99">Add to Cart</button>
+    </div>
+    <div class="coffee-item" data-type="coldbrew">
+      <img src="images/coldbrew.jpg" alt="Cold Brew Blend">
+      <h3>Cold Brew Blend</h3>
+      <p>Refreshing and bold, perfect for iced coffee.</p>
+      <p><em>Recommended brewing: Cold brew system</em></p>
+      <button class="add-to-cart" data-name="Espresso Blend" data-price="12.99">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
