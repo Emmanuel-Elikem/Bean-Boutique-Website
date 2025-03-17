@@ -44,6 +44,7 @@ nav ul li a:hover {
   
 /* Slideshow Styles */
 .slideshow-container {
+    align-content: center;
     position: relative;
     max-width: 1000px;
     margin: 20px auto;
